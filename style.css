@@ -1,0 +1,63 @@
+/* Global font styles */
+body, p, a, input, textarea, button, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Hero Heading */
+.hero-name {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 3rem;
+  color: #a0629b;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+/* Section Titles */
+.section-heading {
+  font-family: 'Lobster Two', serif !important;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #a0629b;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+/* Skill Cards */
+.skill-box {
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.skill-box:hover {
+  transform: scale(1.05);
+  background-color: #ffe5f3;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Purple Custom Button */
+.btn-purple {
+  background-color: #a0629b;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn-purple:hover {
+  background-color: #8b4f7f;
+}
+
+/* Card Title Color */
+.text-purple {
+  color: #a0629b;
+}
+
+/* Fade-in Animation */
+.fade-in {
+  animation: fadeIn 1.5s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
